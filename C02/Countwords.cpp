@@ -6,13 +6,13 @@
 
 #include <iostream>
 #include <fstream>
-#include <cassert>
+#include "../require.h"
 using namespace std;
 
 int
 main(int argc, char **argv)
 {
-    assert(argc == 2 && "usage: <executable> <filename>");
+    requireArgs(argc, 1);
     ifstream in(argv[1]);
     string word;
     int count = 0;
