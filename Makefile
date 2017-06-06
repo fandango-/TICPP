@@ -7,8 +7,10 @@ all:
 	cd C02; make
 	cd C04; make
 	cd C06; make
+	cd C07; make
 
 clean:
 	cd C02; make clean
 	cd C04; make clean
 	cd C06; make clean
+	cd C07; make clean
