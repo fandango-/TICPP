@@ -9,6 +9,7 @@ all:
 	cd C06; make
 	cd C07; make
 	cd C09; make
+	cd C11; make
 
 clean:
 	cd C02; make clean
@@ -16,3 +17,4 @@ clean:
 	cd C06; make clean
 	cd C07; make clean
 	cd C09; make clean
+	cd C11; make clean
