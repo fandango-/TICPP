@@ -8,9 +8,11 @@ all:
 	cd C04; make
 	cd C06; make
 	cd C07; make
+	cd C09; make
 
 clean:
 	cd C02; make clean
 	cd C04; make clean
 	cd C06; make clean
 	cd C07; make clean
+	cd C09; make clean
