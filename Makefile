@@ -12,6 +12,7 @@ all:
 	cd C11; make
 	cd C12; make
 	cd C14; make
+	cd C15; make
 
 clean:
 	cd C02; make clean
@@ -22,3 +23,4 @@ clean:
 	cd C11; make clean
 	cd C12; make clean
 	cd C14; make clean
+	cd C15; make clean
