@@ -7,48 +7,38 @@
 #include <iostream>
 using namespace std;
 
-class A
-{
+class A {
   public:
-    A()
-    {
+    A() {
         cout << "Constructor for A called" << endl;
     }
-     ~A()
-    {
+    ~A() {
         cout << "Destructor for A called" << endl;
     }
 };
 
-class B:public A
-{
+class B: public A {
   public:
-    B()
-    {
+    B() {
         cout << "Constructor for B called" << endl;
     }
-     ~B()
-    {
+    ~B() {
         cout << "Destructor for B called" << endl;
     }
 };
 
-class C:public B
-{
+class C: public B {
   public:
-    C()
-    {
+    C() {
         cout << "Constructor for C called" << endl;
     }
-     ~C()
-    {
+    ~C() {
         cout << "Destructor for C called" << endl;
     }
 };
 
 int
-main(int argc, char **argv)
-{
+main(int argc, char ** argv) {
     C c;
     // Order of calls is A, B, C for constructors and the reverse for destructors
     return 0;

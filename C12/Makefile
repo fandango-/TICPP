@@ -24,6 +24,6 @@ Postpre: Postpre.o
 	$(CPP) $(OFLAG) Postpre Postpre.o
 
 clean:
-	rm -f *~ *.o Postpre
+	rm -f *~ *.orig *.o Postpre
 
 Postpre.o: Postpre.cpp

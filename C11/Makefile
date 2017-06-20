@@ -32,7 +32,7 @@ Charref: Charref.o
 	$(CPP) $(OFLAG) Charref Charref.o
 
 clean:
-	rm -f *~ *.o Referrors Pointerref Charref
+	rm -f *~ *.orig *.o Referrors Pointerref Charref
 
 Referrors.o: Referrors.cpp
 Pointerref.o: Pointerref.cpp

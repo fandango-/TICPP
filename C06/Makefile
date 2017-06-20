@@ -32,7 +32,7 @@ Simple3: Simple3.o
 	$(CPP) $(OFLAG) Simple3 Simple3.o
 
 clean:
-	rm -f *~ *.o Simple1 Simple2 Simple3
+	rm -f *~ *.orig *.o Simple1 Simple2 Simple3
 
 Simple1.o: Simple1.cpp
 Simple2.o: Simple2.cpp

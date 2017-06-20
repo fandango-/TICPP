@@ -4,8 +4,7 @@
  */
 
 
-class Four
-{
+class Four {
   public:
     void f();
     void f(int);
@@ -14,39 +13,32 @@ class Four
 };
 
 void
-Four::f()
-{
+Four::f() {
 }
 
 void
-Four::f(int)
-{
+Four::f(int) {
 }
 
 void
-Four::f(int, int)
-{
+Four::f(int, int) {
 }
 
 void
-Four::f(int, int, int)
-{
+Four::f(int, int, int) {
 }
 
-class One
-{
+class One {
   public:
     void f(int = 0, int = 0, int = 0);
 };
 
 void
-One::f(int, int, int)
-{
+One::f(int, int, int) {
 }
 
 int
-main(int argc, char **argv)
-{
+main(int argc, char ** argv) {
     // old style
     Four four;
     four.f();

@@ -28,7 +28,7 @@ Structsize: Structsize.o
 	$(CPP) $(OFLAG) Structsize Structsize.o
 
 clean:
-	rm -f *~ *.o Dynamicalloc Structsize
+	rm -f *~ *.orig *.o Dynamicalloc Structsize
 
 Dynamicalloc.o: Dynamicalloc.cpp
 Structsize.o: Structsize.cpp

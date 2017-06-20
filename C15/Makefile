@@ -32,7 +32,7 @@ Shapepass: Shapepass.o
 	$(CPP) $(OFLAG) Shapepass Shapepass.o
 
 clean:
-	rm -f *~ *.o Shape Shapepure Shapepass
+	rm -f *~ *.orig *.o Shape Shapepure Shapepass
 
 Shape.o: Shape.cpp
 Shapepure.o: Shapepure.cpp

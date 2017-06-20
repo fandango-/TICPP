@@ -7,28 +7,24 @@
 #include <iostream>
 using namespace std;
 
-class Simple
-{
+class Simple {
     int i;
   public:
-      Simple(int);
-     ~Simple();
+    Simple(int);
+    ~Simple();
 };
 
-Simple::Simple(int x)
-{
+Simple::Simple(int x) {
     i = x;
     cout << "Simple constructor called. Value of i is: " << i << endl;
 }
 
-Simple::~Simple()
-{
+Simple::~Simple() {
     cout << "Simple destructor called. Value of i is: " << i << endl;
 }
 
 int
-main(int argc, char **argv)
-{
+main(int argc, char ** argv) {
     Simple s(4);
     return 0;
 }

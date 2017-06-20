@@ -28,7 +28,7 @@ BusinessTraveler: BusinessTraveler.o
 	$(CPP) $(OFLAG) BusinessTraveler BusinessTraveler.o
 
 clean:
-	rm -f *~ *.o Threelevel BusinessTraveler
+	rm -f *~ *.orig *.o Threelevel BusinessTraveler
 
 Threelevel.o: Threelevel.cpp
 BusinessTraveler.o: BusinessTraveler.cpp

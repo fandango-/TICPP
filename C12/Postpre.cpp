@@ -7,34 +7,28 @@
 #include <iostream>
 using namespace std;
 
-class Integer
-{
+class Integer {
     int i;
   public:
-    Integer(int ii = 0):i(ii)
-    {
+    Integer(int ii = 0): i(ii) {
     }
-    const Integer & operator++()
-    {
+    const Integer & operator++() {
         i++;
         return *this;
     }
-    const Integer operator++(int)
-    {
+    const Integer operator++(int) {
         Integer before(i);
         i++;
         return before;
     }
-    friend ostream & operator<<(ostream & os, const Integer & integer)
-    {
+    friend ostream & operator<<(ostream & os, const Integer & integer) {
         os << integer.i;
         return os;
     }
 };
 
 int
-main(int argc, char **argv)
-{
+main(int argc, char ** argv) {
     Integer a(1);
     cout << "Before ++a: " << a << endl;
     cout << "During ++a: " << ++a << endl;

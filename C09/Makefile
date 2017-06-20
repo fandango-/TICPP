@@ -24,6 +24,6 @@ Fmacro: Fmacro.o
 	$(CPP) $(OFLAG) Fmacro Fmacro.o
 
 clean:
-	rm -f *~ *.o Fmacro
+	rm -f *~ *.orig *.o Fmacro
 
 Fmacro.o: Fmacro.cpp

@@ -11,8 +11,7 @@ using namespace std;
 #define F1(x) ((x) + 1)         // correct
 
 int
-main(int argc, char **argv)
-{
+main(int argc, char ** argv) {
     int a = 0x0f, b = 0x07;
     cout << F(a >= b ? 0 : 1) << endl;
     cout << F1(a >= b ? 0 : 1) << endl;

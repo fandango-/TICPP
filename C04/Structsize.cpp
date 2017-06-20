@@ -7,29 +7,24 @@
 #include <iostream>
 using namespace std;
 
-struct A
-{
+struct A {
     int i[100];
 };
 
-struct B
-{
+struct B {
     char c, d, e;
     void f();
 };
 
 void
-B::f()
-{
+B::f() {
 }
 
-struct C
-{
+struct C {
 };
 
 int
-main(int argc, char **argv)
-{
+main(int argc, char ** argv) {
     cout << "sizeof struct A = " << sizeof(A) << " bytes" << endl;
     cout << "sizeof struct B = " << sizeof(B) << " bytes" << endl;
     /* struct C has a non-zero size because if its size was zero, then its

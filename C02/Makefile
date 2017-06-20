@@ -28,7 +28,7 @@ Fillvector: Fillvector.o
 	$(CPP) $(OFLAG) Fillvector Fillvector.o
 
 clean:
-	rm -f *~ *.o Countwords Fillvector
+	rm -f *~ *.orig *.o Countwords Fillvector
 
 Countwords.o: Countwords.cpp
 Fillvector.o: Fillvector.cpp

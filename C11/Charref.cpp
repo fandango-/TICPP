@@ -8,14 +8,12 @@
 using namespace std;
 
 void
-f(char &c)
-{
+f(char & c) {
     c = 'h';
 }
 
 int
-main(int argc, char **argv)
-{
+main(int argc, char ** argv) {
     char ch = 'a';
     cout << "Value of ch before calling f(): " << ch << endl;
     f(ch);

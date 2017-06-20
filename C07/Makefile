@@ -28,7 +28,7 @@ Fourinone: Fourinone.o
 	$(CPP) $(OFLAG) Fourinone Fourinone.o
 
 clean:
-	rm -f *~ *.o Text Fourinone
+	rm -f *~ *.orig *.o Text Fourinone
 
 Text.o: Text.cpp
 Fourinone.o: Fourinone.cpp
